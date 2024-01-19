@@ -7,11 +7,9 @@ function About() {
   return (
     <div className="profile">
       <img src={avatarImage} alt="" className="profile-image" />
-      <h1 className="profile-text">I am Prashant Kumar Yadav</h1>
+      <h2 className="profile-text">Made By</h2>
+      <h1 className="profile-text">JoyBoy</h1>
       <h2 className="profile-text">The creator of this awesome pokedex</h2>
-      <h4 className="profile-text">
-        I created this Project with the help of youtube and github.
-      </h4>
       <div className="profile-links">
         <a href="https://github.com/0PrashantYadav0" className="github">
           <FaGithub />

@@ -4,7 +4,7 @@ import Footer from "./sections/Footer";
 
 import Background from "./components/Background";
 import "./scss/index.scss";
-import { Suspense, lazy, useEffect } from "react";
+import { Suspense,lazy, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { firebaseAuth } from "./utils/firebaseConfig";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
@@ -12,6 +12,7 @@ import { clearToasts, setUserStatus } from "./app/slices/AppSlice";
 import { ToastContainer, ToastOptions, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "./components/Loader";
+
 
 const Search = lazy(() => import("./pages/Search"));
 const MyList = lazy(() => import("./pages/MyList"));
