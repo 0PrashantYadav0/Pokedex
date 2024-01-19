@@ -1,8 +1,8 @@
 
 import React, { useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import pokeballIcon from "../../src/assets/pokeball-icon.png";
 import { Link, useLocation } from "react-router-dom";
+import { pokeballIcon } from "../utils/imageImport"
 import { resetRandomPokemons } from "../app/slices/PokemonSlice";
 import { useAppDispatch } from "../app/hooks";
 export default function Navbar() {

@@ -1,5 +1,5 @@
 import React from "react";
-import pokeballLoader from "../assets/pokeball-loader.gif";
+import { pokeballLoader } from "../utils/imageImport";
 function Loader() {
   return (
     <div className="loader">

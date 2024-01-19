@@ -1,5 +1,5 @@
-import pokeball1 from "../../src/assets/pokeball.png";
-import pokeball2 from "../assets/pokeball2.png";
+import { pokeball1 } from "../utils/imageImport";
+import { pokeball2 } from "../utils/imageImport";
 
 export default function Background() {
   return (
